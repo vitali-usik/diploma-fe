@@ -3,6 +3,7 @@ import React from 'react';
 import TypeScriptTest from './components/TypeScriptTest';
 import TempTourDetails from './components/TempTourDetails';
 import TempTourTable from './components/TempTourTable';
+import PostList from './components/PostList';
 
 import logo from './logo.svg';
 import './App.css';
@@ -24,6 +25,7 @@ function App() {
           Learn React
         </a>
         <TypeScriptTest />
+        <PostList />
         <div className="ui container grid">
           <div className="ui row">
             <div className="column eight wide">
